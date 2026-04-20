@@ -14,26 +14,23 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Pickle / model bestanden (te groot, worden gegenereerd door notebooks)
+# Large binary files
 output/models/*.pkl
 
-# Cursus PDFs (niet onze eigendom)
-data/*.pdf
-
-# Oude data
-archive/
+# Documents
+*.pdf
 
 # IDE
 .vscode/
 .idea/
 
-# Pipenv (requirements.txt is voldoende)
+# Dependencies
 Pipfile
 Pipfile.lock
 
-# Claude Code
-CLAUDE.md
-video_scripts/
+# Local
+*.md
+archive/
 
 # OS
 .DS_Store
